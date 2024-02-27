@@ -1,0 +1,113 @@
+baseURL: "https://naiksanketh.github.io/portfolio/"
+languageCode: en-us
+title: Sanketh Naik
+theme: PaperMod
+googleAnalytics: "G-QTYSD4HXKK"
+
+menu:
+  main:
+    - identifier: home
+      name: Profile
+      url: /
+      weight: 10
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog/comingsoon
+    #   weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: certifications
+      name: Certifications
+      url: /certifications
+      weight: 40
+    # - identifier: experience
+    #   name: Experience
+    #   url: /experience
+    #   weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: 
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+  title: Sanketh Naik
+  description: "Portfolio website by Sanketh Naik"
+  keywords: [Portfolio, Sanketh, Naik, SankethNaik]
+  author: Sanketh Naik
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Sanketh Naik"
+    subtitle: A passionate engineer exploring and seeking opportunities to develop professionally and contribute to developing innovative cutting-edge technology solutions.
+
+    imageUrl: "home/profile-img.jpeg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: About
+        url: about/about
+      - name: Resume
+        url: "https://drive.google.com/file/d/13ai7XSE67pVKy4vNuJOajx4kKuSclBv7/view?usp=drivesdk"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:naiksanketh100@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/naik-sanketh-b667b122a/"
+    # - name: "github"
+    #   url: "https://github.com/NehalH"
+    #- name: "youtube"
+    #  url: ""
+    #- name: "cv"
+    #  url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
