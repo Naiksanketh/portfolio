@@ -9,7 +9,7 @@ weight: 100
 # cover:
 #     image: "projects/orgAero/cover.jpg"
 --- 
-<!-- ### 🔗 [Github Repository](https://github.com/NehalH/orgAERO22) -->
+### 🔗 [Github Repository](https://github.com/Naiksanketh/Photo-Editing-android-application)
 
 ## Description
 Our project is a sophisticated Android photo editing application crafted with XML for the intuitive front-end interface and Java for robust backend functionality. The application empowers users to enhance their photos by seamlessly integrating diverse filters and stylish frames. Through a user-friendly design, our application provides a seamless and enjoyable editing experience on Android phones.
