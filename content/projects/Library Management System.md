@@ -9,7 +9,7 @@ weight: 100
 # cover:
 #     image: "projects/orgAero/cover.jpg"
 --- 
-### 🔗 [Github Repository](https://github.com/Naiksanketh/Library-Management-System)
+<!-- ### 🔗 [Github Repository](https://github.com/Naiksanketh/Library-Management-System) -->
 
 ## Description
 The Library Management System project implemented in C++ revolutionizes book management for institutions. Leveraging advanced file structure concepts, it empowers librarians to efficiently organize and oversee their collection. This system ensures seamless tracking of books, patrons, and transactions, enhancing overall
