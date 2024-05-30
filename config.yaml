@@ -67,7 +67,7 @@ params:
       - name: About
         url: about/about
       - name: Resume
-        url: "https://drive.google.com/file/d/13ai7XSE67pVKy4vNuJOajx4kKuSclBv7/view?usp=drivesdk"
+        url: "https://drive.google.com/file/d/1eOn3zKNW-mcv3J85Xuq41oSYBq6j7qUa/view"
 
   # List View
   hideDescriptionInList: false
